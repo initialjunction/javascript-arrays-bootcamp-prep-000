@@ -18,7 +18,8 @@ var chocolateBars = [
   }
   
   function addElementToEndofArray() {
-    const myArray = 
+    const myArray = [1];
+    const newArray = myArray.push("foo");
   }
   
   function destructivelyAddElementToEndOfArray() {
