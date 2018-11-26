@@ -22,3 +22,5 @@ var chocolateBars = [
     array.push(element);
     return array;
   }
+  
+  
