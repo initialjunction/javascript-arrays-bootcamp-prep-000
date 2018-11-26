@@ -14,10 +14,11 @@ var chocolateBars = [
     return array;
   }
   
-  function addElementToEndofArray(array, element) {
+  function addElementToEndOfArray(array, element) {
     return [...array, element];
   }
   
   function destructivelyAddElementToEndOfArray() {
-    return array.push(element);
+    array.push(element);
+    return array;
   }
