@@ -16,3 +16,11 @@ var chocolateBars = [
     someArray = ["foo", ...someArray];
     return someArray;
   }
+  
+  function addElementToEndofArray() {
+    const myArray = 
+  }
+  
+  function destructivelyAddElementToEndOfArray() {
+    
+  }
