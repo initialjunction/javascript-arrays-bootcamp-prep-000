@@ -13,11 +13,10 @@ var chocolateBars = [
     return array.unshift(element);
   }
   
-  function addElementToEndofArray() {
-    const myArray = [1];
-    const newArray = myArray.push("foo");
+  function addElementToEndofArray(array, element) {
+    return [...array, element];
   }
   
   function destructivelyAddElementToEndOfArray() {
-    
+    return array.push(element);
   }
