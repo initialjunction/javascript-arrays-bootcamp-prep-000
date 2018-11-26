@@ -7,11 +7,11 @@ var chocolateBars = [
   
   function addElementToBeginningOfArray(array, element) {
     const someArray = [1];
-    const newArray = someArray.unshift('foo');
+    const newArray = [someArray.unshift('foo')];
     return newArray;
   }
   
-  function destructivelyAddElementToBeginningOfArray(array, element){
+  function destructivelyAddElementToBeginningOfArray(array, element) {
     var someArray = [1];
     someArray.unshift("foo");
     return someArray;
